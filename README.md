@@ -1,7 +1,7 @@
 
 <div align="center">
   <h1>👋 Olá, eu sou o Lucas</h1>
-  <p><em>Front-End Developer | Design 3D | Design Gráfico</em></p>
+  <p><em>Front-End Developer/em></p>
   
   <img src="https://komarev.com/ghpvc/?username=SeuUsuarioAqui&color=blue&style=flat" alt="Profile views" />
 </div>
@@ -26,7 +26,7 @@
   <img src="https://skillicons.dev/icons?i=blender" alt="Blender" height="50" />
 </div>
 
----
+
 
 <h2>📊 Estatísticas do GitHub</h2>
 <div align="center">
@@ -37,11 +37,8 @@
 ---
 
 <h2>🌐 Conecte-se comigo</h2>
-<div align="center">
-  <a href="https://linkedin.com/in/seulinkedin" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="50"/>
-  </a>
-  <a href="https://instagram.com/seuinstagram" target="_blank">
+
+  <a href="https://www.instagram.com/luckx.ig" target="_blank">
     <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" height="50"/>
   </a>
 </div>
