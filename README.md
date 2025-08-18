@@ -34,40 +34,9 @@
   </a>
 </div>
 
----
 
-<h2>🎮 Jogo da Cobrinha</h2>
-<p>Use as setas do teclado para jogar!</p>
-<div style="text-align:center;">
-  <canvas id="snakeGame" width="400" height="400" style="border:1px solid #000;"></canvas>
-</div>
 
-<script>
-const canvas = document.getElementById("snakeGame");
-const ctx = canvas.getContext("2d");
 
-const box = 20;
-let snake = [{x: 9*box, y: 10*box}];
-let direction = "RIGHT";
-let food = {
-  x: Math.floor(Math.random()*20)*box,
-  y: Math.floor(Math.random()*20)*box
-};
-
-document.addEventListener("keydown", changeDirection);
-
-function changeDirection(event){
-    if(event.key === "ArrowUp" && direction !== "DOWN") direction = "UP";
-    if(event.key === "ArrowDown" && direction !== "UP") direction = "DOWN";
-    if(event.key === "ArrowLeft" && direction !== "RIGHT") direction = "LEFT";
-    if(event.key === "ArrowRight" && direction !== "LEFT") direction = "RIGHT";
-}
-
-function draw(){
-    ctx.fillStyle = "#f0f0f0";
-    ctx.fillRect(0,0,canvas.width,canvas.height);
-
-    for(let i=0; i<snake.length; i++){
         ctx.fillStyle = (i===0) ? "green" : "lightgreen";
         ctx.fillRect(snake[i].x, snake[i].y, box, box);
         ctx.strokeStyle = "white";
