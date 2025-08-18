@@ -1,5 +1,4 @@
 
-<html lang="pt-br">
 
 <div align="center">
   <h1>👋 Olá, eu sou o Lucas</h1>
