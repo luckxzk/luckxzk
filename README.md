@@ -1,3 +1,6 @@
+
+<html lang="pt-br">
+
 <div align="center">
   <h1>👋 Olá, eu sou o Lucas</h1>
   <p><em>Front-End Developer | Design 3D | Design Gráfico</em></p>
@@ -5,7 +8,7 @@
   <img src="https://komarev.com/ghpvc/?username=luckx&color=blue&style=flat" alt="Profile views" />
 </div>
 
----
+
 
 <h2>🚀 Sobre mim</h2>
 <p>
@@ -16,7 +19,7 @@
 
 ---
 
-<h2>💻 Minhas Stacks</h2>
+<h2>💻 Stacks</h2>
 <div align="center">
   <img src="https://skillicons.dev/icons?i=html" alt="HTML" height="50" />
   <img src="https://skillicons.dev/icons?i=css" alt="CSS" height="50" />
